@@ -21,7 +21,7 @@ import yaml
 from libscores import * # Library of scores we implemented
 
 # Default I/O directories:      
-root_dir = "/home/imad/Documents/Final/Starting_kit/"
+root_dir = "../"
 default_input_dir = root_dir + "scoring_input" 
 default_output_dir = root_dir + "scoring_output"  
 

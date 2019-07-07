@@ -29,7 +29,7 @@ from sys import stderr
 from sys import version
 swrite = stderr.write
 from os import getcwd as pwd
-from pip import get_installed_distributions as lib
+#from pip import get_installed_distributions as lib
 from glob import glob
 import platform
 import psutil
@@ -490,7 +490,7 @@ def show_version(scoring_version):
 	swrite("Python version: " + version + "\n\n")
 	# Give information on the version installed
 	swrite("Versions of libraries installed:\n")
-	map(swrite, sorted(["%s==%s\n" % (i.key, i.version) for i in lib()]))
+	#map(swrite, sorted(["%s==%s\n" % (i.key, i.version) for i in lib()]))
  
 def show_platform():
     ''' Show information on platform'''
